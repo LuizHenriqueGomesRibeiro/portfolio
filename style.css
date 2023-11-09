@@ -1,0 +1,101 @@
+body{
+    background-color: #C0C0C0;
+}
+
+body aside{
+    width: 200px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 8px;
+    display: flex;
+    align-items: stretch;
+}
+
+body aside ul.tree-view{
+    width: 100%;
+    overflow-y: scroll;
+}
+
+body aside ul.tree-view li{
+    overflow-x: hidden;
+}
+
+body div.example{
+    position: relative;
+    left: 17.7%;
+    width: 81.5%;
+}
+
+body div.window{
+    position: relative;
+    left: 218px;
+    width: calc(100% - 226px);
+    margin-bottom: 10px;
+}
+
+body div.window div.window-body p{
+    font-size: 14px;
+}
+
+body div.window div.window-body pre{
+    position: relative;
+    margin: auto;
+    height: 189px;
+    width: 189px;
+    float: left;
+    background-image: url(imagens/foto.jpg);
+    background-size: 291px;
+    background-position: 261px -40px;
+}
+
+.descricao{
+    position: relative;
+    left: 45px;
+    top: 80px;
+}
+
+body div.window div.window{
+    width: 97.9%;
+    position: relative;
+    left: 0.65vw;
+    top: -0.8vh;
+}
+
+div#envolveMenor{
+    display: flex;
+    margin-top: 18px;
+}
+
+div#menor{
+    width: 48%;
+    margin-right: 13px;
+}
+
+menu.menu{
+    position: relative;
+    left: 9px;
+    top: -5px;
+}
+
+div.divImagem{
+    position: relative;
+    margin: auto;
+    width: 394px;
+    height: 72px;
+    background-image: url(imagens/grande.png);
+    /*#C0C0C0*/
+}
+
+div.divImagem2{
+    position: relative;
+    margin: auto;
+    width: 452px;
+    height: 72px;
+    background-image: url(imagens/chart.png);
+    /*#C0C0C0*/
+}
+
+a{
+    text-decoration: none;
+}

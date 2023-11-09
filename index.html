@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="https://unpkg.com/98.css" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<aside>
+		<ul class="tree-view">
+			<li><a href="#intro">Intro</a></li>
+			<li>
+				<a href="#components">Components</a>
+				<ul>
+					<li><a href="#button">Button</a></li>
+					<li><a href="#checkbox">Checkbox</a></li>
+					<li><a href="#option-button">OptionButton</a></li>
+					<li><a href="#group-box">GroupBox</a></li>
+					<li><a href="#text-box">TextBox</a></li>
+					<li><a href="#slider">Slider</a></li>
+					<li><a href="#dropdown">Dropdown</a></li>
+					<li>
+						<a href="#window">Window</a>
+						<ul>
+							<li><a href="#title-bar">Title Bar</a></li>
+							<li><a href="#window-contents">Window contents</a></li>
+							<li><a href="#status-bar">Status Bar</a></li>
+						</ul>
+					</li>
+					<li><a href="#tree-view">TreeView</a></li>
+					<li><a href="#tabs">Tabs</a></li>
+					<li><a href="#table-view">TableView</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#issues-contributing-etc">Issues, Contributing, etc.</a>
+			</li>
+		</ul>
+	</aside>
+	<div class="window">
+		<div class="title-bar">
+			<div class="title-bar-text">Meu portfólio</div>
+			<div class="title-bar-controls">
+				<button aria-label="Minimize"></button>
+				<button aria-label="Maximize"></button>
+				<button aria-label="Close"></button>
+			</div>
+		</div>
+		<div class="window-body">
+			<p>There's so much room for activities!</p>
+			<div class="window centralizar" style="margin: 32px; width: 550px; height: 250px; position: relative;
+          margin: auto;">
+				<div class="title-bar inactive">
+					<div class="title-bar-text">
+						My First VB4 Program
+					</div>
+					<div class="title-bar-controls">
+						<button aria-label="Minimize"></button>
+						<button aria-label="Maximize"></button>
+						<button aria-label="Close"></button>
+					</div>
+				</div>
+				<div class="window-body">
+					<pre></pre>
+				</div>
+				<div class="descricao">
+					<p>Meu nome é Luiz Henrique Gomes Ribeiro.</p>
+					<p>Desenvolvedor back-end.</p>
+					<p>Github: <a href="https://github.com/LuizHenriqueGomesRibeiro">Acessar.</a></p>
+					<p>Linkedin: <a href="https://www.linkedin.com/in/luiz-ribeiro-101210266/">Acessar.</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="window">
+			<div class="title-bar inactive">
+				<div class="title-bar-text">Um pouco mais sobre mim</div>
+				<div class="title-bar-controls">
+					<button aria-label="Minimize"></button>
+					<button aria-label="Maximize"></button>
+					<button aria-label="Close"></button>
+				</div>
+			</div>
+			<div class="window-body">
+				<p>
+					Comecei minha jornada no desenvolvimento de software em 2021, durante
+					o curso de Engenharia Elétrica no Instituto Federal do Espírito Santo
+					através de C/C++.
+				</p>
+				<p>
+					Atualmente, programo em Java para sistemas Web, também me utilizando
+					de tecnologias como Html, Css, Javascript, jQuery e Ajax e banco de dados
+					PostgresSQL.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="window">
+		<div class="title-bar">
+			<div class="title-bar-text">Segue abaixo meus melhores sistemas desenvolvidos:</div>
+			<div class="title-bar-controls">
+				<button aria-label="Minimize"></button>
+				<button aria-label="Maximize"></button>
+				<button aria-label="Close"></button>
+			</div>
+		</div>
+		<div class="window-body">
+		</div>
+		<div id="envolveMenor">
+			<div id="menor" class="window">
+				<div class="title-bar inactive">
+					<div class="title-bar-text">Experiencia profissional:</div>
+					<div class="title-bar-controls">
+						<button aria-label="Minimize"></button>
+						<button aria-label="Maximize"></button>
+						<button aria-label="Close"></button>
+					</div>
+				</div>
+				<div class="window-body">
+					<p>
+						Portfólio StudioUna
+					</p>
+					<p>
+						Trata-se de um sistema Web em Java desenvolvido para um escritorio de arquitetura de Vitoria-ES chamado
+						StudioUna e conta com uma estrutura completa: front-end, back-end e banco de dados.
+					</p>
+					<p>
+						Periodo de desenvolvimento: 23 de outubro a 24 de dezembro de 2023.
+					</p>
+					<p>
+						Código-fonte (versao aberta): <a href="https://github.com/LuizHenriqueGomesRibeiro/Site">Codigo-fonte.</a>
+					</p>
+					<p>
+						Aplicacao no ar: <a href="#">Portfolio StudioUna.</a>
+					</p>
+					<p>
+						Tecnologias utilizadas:
+					</p>
+					<div class="divImagem"></div>
+				</div>
+			</div>
+			<div id="menor" class="window">
+				<div class="title-bar inactive">
+					<div class="title-bar-text">Projeto pessoal:</div>
+					<div class="title-bar-controls">
+						<button aria-label="Minimize"></button>
+						<button aria-label="Maximize"></button>
+						<button aria-label="Close"></button>
+					</div>
+				</div>
+				<div class="window-body">
+					<p>
+						Sistema de administracao industrial
+					</p>
+					<p>
+						E um sistema web em Java de administracao de um armazem, contando com um setor de contabilidade detalhado, 
+						cadastro de novos fornecedores, pedido de entregras, entrada e saida de produtos, impressao de relatorios 
+						por data e por dia. 
+					</p>
+					<p>
+						Periodo de desenvolvimento: 11 de outubro a 24 de dezembro de 2023.
+					</p>
+					<p>
+						Código-fonte (versao aberta): <a href="https://github.com/LuizHenriqueGomesRibeiro/Site">Codigo-fonte.</a>
+					</p>
+					<p>
+						Aplicacao no ar: <a href="#">Portfolio StudioUna.</a>
+					</p>
+					<p>
+						Tecnologias utilizadas:
+					</p>
+					<div class="divImagem2"></div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
